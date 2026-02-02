@@ -3,8 +3,9 @@ import sys
 
 print('Programa para escolha aleatória de aluno')
 
+turma = ['João', 'Lucas', 'Fiaspo', "Wilson"]
+
 while True:
-    turma = ['João', 'Lucas', 'Fiaspo', "Wilson"]
     escolhido = random.choice(turma)
     print(escolhido)
 
@@ -17,5 +18,3 @@ while True:
             sys.exit('Encerrando programa...')
         else:
             print('Digite um valor válido!!!\n')
-
-sys.exit('Encerrando programa...')
