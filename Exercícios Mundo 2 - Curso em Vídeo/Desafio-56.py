@@ -65,7 +65,7 @@ print('---' * 20)
 if all(pessoa['sexo'] != 'H' for pessoa in pessoas.values()):
     print('Não tem Homem na Lista\n')
 else:
-    variavel_seguradora_nome = 'place_holder'
+    variavel_seguradora_nome = 'Todos possuem a mesma Idade'
     variavel_seguradora_idade = 0
 
     for x in range(1, 5):
