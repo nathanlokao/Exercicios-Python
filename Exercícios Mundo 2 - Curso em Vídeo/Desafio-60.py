@@ -5,7 +5,12 @@ while True:
             fatorial = int(input('Digite o Valor Fatorial: '))
             break
         except ValueError:
-            print('\nDigite corretamente\n')
+            print('Digite corretamente\n')
+    
+    if fatorial < 0:
+        print('Não aceitamos Valores Negativos\n')
+        continue
+
     n1 = fatorial
     n2 = fatorial - 1
 
